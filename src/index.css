@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+/* .parent{
+ position: relative;
+} */
+
+.act{
+  color: #9CC !important;
+}
+
+.act2{
+  color: white !important;
+}
+
+.content{
+  position: absolute;
+  z-index: 1;
+
+}
+
+.dark-overlay{
+ position: relative;
+}
+
+
+.img1 {
+  position : absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 1050px;
+  background-image: linear-gradient(285deg, rgba(0.5,0.5,0.5,0.5) 56%, transparent 10%);
+}
+
+.for_navbar{
+  position: absolute;
+  z-index: 3;
+  top: 22px;
+  right: 1%;
+}
+
+.for_navbar .nav-link{
+  margin-right: 35px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.home_content{
+  position: absolute;
+  z-index: 3;
+  color: white;
+    top: 100px;
+    left: 55%;
+    padding-right: 90px;
+}
+
+.p{
+  line-height: 1.8;
+}
+
+
+.horitontal_row {
+  border: 1px solid white;
+  width: auto;
+}
+
+.about_content {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  top: 100px;
+ left: 55%;
+ padding-right: 90px;
+}
+
+.services-content {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  top: 100px;
+  left: 55%;
+  padding-right: 90px;
+}
+
+.contact_content {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  top: 100px;
+  left: 55%;
+  padding-right: 90px;
+}
+
+.footer_content{
+  position: absolute;
+  z-index: 3;
+  color: white;
+   top: 935px;
+   right: 10%;
+}
+
+.footer_text{
+  font-weight: 100;
+}
+
+.carousel-inner .carousel-item {
+  transition: transform 10s ease, -webkit-transform 10s ease;
+}
+
+/* ------------/////////////////////midea queries///////////////////// */
+
+@media (min-width: 992px) and (max-width: 1064px) {
+  .for_navbar .nav-link {
+    margin-right: 20px !important;
+    font-size: 1.2rem;
+    font-weight: 400;
+    /* margin: 0px !important; */
+  }
+
+}
+
+@media (min-width: 1063px) and (max-width: 1250.98px) {
+   .for_navbar .nav-link {
+     margin-right: 25px !important;
+     font-size: 1.2rem;
+     font-weight: 400;
+     /* margin: 0px !important; */
+   }
+}
+
+@media (min-width: 200px) and (max-width: 407px) {
+    .footer-size {
+      transform: translateY(165px) !important;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 461px) {
+  .footer_content {
+    right: 18%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 439px) {
+  .footer_content {
+    right: 15%;
+  }
+}
+
+
+
+@media (min-width: 350px) and (max-width: 377px) {
+  .footer_content {
+    right: 7%;
+  }
+}
+
+@media (min-width: 334px) and (max-width: 349px) {
+
+  .footer_content {
+    right: 4%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 333px) {
+
+  .footer_content {
+    right: 2%;
+  }
+}
+
+@media (max-width: 1254px) {
+.ser_hide{
+  display: none;
+}
+}
+
+@media (max-width: 991.98px) {
+
+  .ser_last{
+    display: none !important;
+
+  }
+  
+  .content {
+    transform: translateX(-45px);
+  }
+
+  .indicator-size{
+    margin-bottom: 63.5rem !important;
+  }
+
+  .footer-size{
+    transform: translateY(330px);
+  }
+
+   .for_size{
+     height: 1230px !important;
+   }
+
+  .img1 {
+    width: 100vw;
+    height: 1810px;
+    background-image: linear-gradient(352deg, rgba(0.5, 0.5, 0.5, 0.5) 56%, transparent 10%);
+    top: -580px;
+    left: 0px;
+  }
+
+  .for_navbar {
+    top: 35px;
+    right: 5%;
+    z-index: 7;
+    
+  }
+.navbar-nav{
+   background-color: rgba(0.5, 0.5, 0.5, 0.5);
+   transform: translateX(20px);
+   border: 1px solid black;
+}
+.nav-link{
+  width: 50px;
+  padding-left: 13px !important;
+}
+  .navbar-toggler{
+        border-radius: 5px;
+        transform: skewX(-25deg) !important;
+        padding: 0.3rem !important;
+    font-size: 1.1rem;
+      background-image: linear-gradient(to right, rgba(0.5, 0.5, 0.5, 0.5), rgba(0.9, 0.9, 0.9, 0.9));
+  }
+
+  .home_content {
+    top: 200px;
+    left: 0;
+    padding-right: 0px;
+  }
+
+  .p {
+    line-height: 1;
+  }
+
+  .horitontal_row {
+    border: 1px solid white;
+    width: auto;
+  }
+
+  .about_content {
+      top: 200px;
+      left: 0;
+      padding-right: 0px;
+  }
+
+  .services-content {
+top: 200px;
+left: 0;
+padding-right: 0px;
+  }
+
+  .contact_content {
+      top: 200px;
+      left: 0;
+      padding-right: 0px;
+  }
+
+   .footer-size {
+     transform: translateY(160px);
+   }
+
+}
